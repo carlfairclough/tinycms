@@ -1,0 +1,16 @@
+----
+Template:
+Default
+----
+Title:
+Design principles
+----
+Content:
+This unnumbered child page is reachable by URL but intentionally omitted from navigation.
+----
+Markdown content:
+- keep content portable
+- prefer conventions over configuration
+- avoid writable production state
+- preserve a small, auditable codebase
+----

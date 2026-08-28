@@ -3,29 +3,29 @@ Theme:
 Default
 ----
 Site Name:
-Custom CMS
+TinyCMS
 ----
 Site Description:
-Custom CMS footer
+TinyCMS is a tiny, file-based PHP CMS inspired by Ruby static-site generators.
 ----
 Your Name:
-Fluff CMS Name
+TinyCMS Maintainer
 ----
 Your City:
-Manchester
+Example City
 ----
 Your Country:
-United Kingdom
+Example Country
 ----
 Your Email:
-contact@carlfairclough.me
+maintainer@example.com
 ----
 Your Twitter:
-@carlfairclough
+@example
 ----
 Header:
-CMS header
+TinyCMS
 ----
 Footer:
-Designed & built in a dark room by Carl Fairclough.
+TinyCMS is in maintenance mode.
 ----

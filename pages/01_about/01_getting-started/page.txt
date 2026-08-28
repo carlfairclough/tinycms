@@ -1,0 +1,25 @@
+----
+Template:
+Default
+----
+Title:
+Getting started
+----
+Content:
+Create a folder, add page.txt, and describe the page with named sections.
+----
+Markdown content:
+## The basic workflow
+
+1. Edit site-wide values in `setup.txt`.
+2. Add or edit a directory under `pages/`.
+3. Choose a theme template with the `Template:` section.
+4. Preview locally and commit the text files with the rest of the site.
+
+Prefix a folder with two digits and an underscore to place it in navigation. The
+folder `01_getting-started` becomes `/about/getting-started`; TinyCMS removes the
+ordering prefix from the public URL.
+
+Plain `Content:` is escaped automatically. Use `Markdown content:` when a page
+needs headings, lists, links, emphasis, or code.
+----

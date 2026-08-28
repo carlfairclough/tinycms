@@ -9,7 +9,7 @@ function e(?string $value): string
 }
 
 /**
- * Read the CMS's simple `Name:` / `----` section format.
+ * Read TinyCMS's simple `Name:` / `----` section format.
  *
  * @return array<string, string>
  */

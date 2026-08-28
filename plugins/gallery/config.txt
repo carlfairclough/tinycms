@@ -1,10 +1,9 @@
 ----
-This is the default gallery plugin for the CMS.
-You can create your own plugins by simply creating a directory within /plugins, which contains config.txt and function.php. You can include other files, but they must be included via plugin.php
-
-This must be wrapped in the section separator of four dashes. The example below is functional, and enables this plugin.
+This empty example shows the TinyCMS plugin layout. Plugins are trusted PHP code
+and must contain config.txt and function.php. Set Status to Off when the example
+is not needed.
 
 ----
 Status:
-On
+Off
 ----

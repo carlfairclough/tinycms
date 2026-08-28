@@ -3,8 +3,12 @@ Template:
 Portfolio
 ----
 Title:
-This is the portfolio page
+Example pages
 ----
 Content:
-Lorem ipsum si dolor et amet, nunc habitasse et portitor demi
+This section demonstrates an ordered collection with a nested project page.
+----
+Markdown content:
+Numbered folders appear in navigation without exposing their numeric prefixes.
+Open the [sample project](/work/sample-project) to see a nested route.
 ----

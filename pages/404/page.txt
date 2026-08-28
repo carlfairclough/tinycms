@@ -6,5 +6,5 @@ Title:
 Page not found
 ----
 Content:
-The page you requested does not exist.
+TinyCMS could not find the page you requested.
 ----

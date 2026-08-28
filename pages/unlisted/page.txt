@@ -1,0 +1,15 @@
+----
+Template:
+Default
+----
+Title:
+Unlisted page
+----
+Content:
+This top-level page is public but omitted from the main navigation because its folder has no numeric prefix.
+----
+Markdown content:
+Unlisted pages are useful for landing pages or documents that should only be
+reached through a direct link. They are not private; use server-side access
+controls when content must be restricted.
+----

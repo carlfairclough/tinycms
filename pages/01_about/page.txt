@@ -3,15 +3,24 @@ Template:
 Default
 ----
 Title:
-This is the about page
+About TinyCMS
 ----
 Content:
-Testing content and stuff here. What?
+TinyCMS is a deliberately limited, database-free publishing system.
 ----
 Markdown content:
-Lorem ipsum si dolor et amet, nunc habitasse et portitor demi
-this is dumb
-- testing
-- testing
-	- testing
+It is inspired by the conventions of Ruby static-site generators: content lives
+in files, directory names become URLs, and a small theme controls presentation.
+
+Unlike a static-site generator, TinyCMS renders pages when they are requested.
+That makes it suitable for a conventional PHP host without introducing a build
+or deployment toolchain.
+
+## What maintenance mode means
+
+- the existing content format remains stable
+- security and current-PHP compatibility fixes are welcome
+- new publishing features and an admin interface are out of scope
+
+Continue with [getting started](/about/getting-started).
 ----

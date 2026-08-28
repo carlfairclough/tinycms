@@ -3,28 +3,28 @@ Template:
 Default
 ----
 Title:
-Homepage Header change
+Welcome to TinyCMS
 ----
 Content:
-Homepage content
+TinyCMS turns folders and plain text files into a small website.
 ----
 Post Date:
-06/11/2014
+2026-08-28
 ----
 Markdown content:
-Here we're going to have some markdown content
-#markdown!
-Yep, it's markdown, and
-- it
-- works
-	- perfectly.
-		- See?
-It does some other stuff too, like *italics*, and even **bold** text.
+## Small by design
 
-## my
-### mind
-### has
-#### been
-## blown
-# hello
+TinyCMS borrows the content-on-disk feel of Ruby static-site generators while
+remaining deployable on an ordinary PHP host.
+
+- no database
+- no browser-based admin area
+- no package installation or build step
+- content that remains readable in version control
+
+## Maintenance mode
+
+TinyCMS is feature-complete. Maintenance focuses on security, PHP compatibility,
+and serious bugs. Start with the [about page](/about) or inspect the text files
+under `pages/` to see how the example site is assembled.
 ----

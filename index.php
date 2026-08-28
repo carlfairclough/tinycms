@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-/* Public front controller. Application paths are anchored to this file so the
- * CMS also works from a subdirectory and does not depend on DOCUMENT_ROOT. */
+/* Public front controller. Application paths are anchored to this file so
+ * TinyCMS also works from a subdirectory and does not depend on DOCUMENT_ROOT. */
 $root = __DIR__;
 $documentRoot = realpath($_SERVER['DOCUMENT_ROOT'] ?? '');
 $isInsideDocumentRoot = is_string($documentRoot)

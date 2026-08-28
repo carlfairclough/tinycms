@@ -1,0 +1,16 @@
+----
+Template:
+Single-project
+----
+Title:
+Sample project
+----
+Content:
+This page demonstrates a nested route using a different theme template.
+----
+Markdown content:
+Its source is `pages/02_work/01_sample-project/page.txt`, while its public URL is
+`/work/sample-project`.
+
+The numeric prefix controls menu order and never appears in the URL.
+----
