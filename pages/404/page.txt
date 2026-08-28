@@ -3,11 +3,8 @@ Template:
 Default
 ----
 Title:
-404!!!!!!
+Page not found
 ----
 Content:
-404! Lorem ipsum si dolor et amet, nunc habitasse et portitor demi
-----
-Stupid random content:
-Ney
+The page you requested does not exist.
 ----

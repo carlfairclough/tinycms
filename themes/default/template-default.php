@@ -1,6 +1,7 @@
-
-<div style="border:4px solid pink"><h1><?php echo get_content('Title'); ?></h1></div>
-
-<div style="border:4px solid purple"><p><?php echo get_content('Content'); ?></p></div>
-
-<div style="border:4px solid salmon"><?php print_markdown('Markdown content'); ?></div>
+<article>
+    <h1><?php echo e(get_content('Title')); ?></h1>
+    <?php if (get_content('Content') !== ''): ?>
+        <p><?php echo nl2br(e(get_content('Content'))); ?></p>
+    <?php endif; ?>
+    <?php print_markdown('Markdown content'); ?>
+</article>

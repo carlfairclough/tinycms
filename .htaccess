@@ -1,5 +1,23 @@
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
+Options -Indexes
+DirectoryIndex index.php
 
-RewriteRule .* index.php/$0 [PT,L] 
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Content, configuration and executable internals are never public files.
+    RewriteRule ^\.git(?:/|$) - [F,L,NC]
+    RewriteRule ^(?:backend|editor|pages|plugins)(?:/|$) - [F,L,NC]
+    RewriteRule ^(?!index\.php$).*\.php$ - [F,L,NC]
+    RewriteRule \.(?:txt|md|mdown)$ - [F,L,NC]
+
+    # Send friendly URLs to the front controller while leaving real assets alone.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set X-Frame-Options "DENY"
+</IfModule>
